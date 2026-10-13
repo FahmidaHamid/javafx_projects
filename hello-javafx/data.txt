@@ -1,0 +1,6 @@
+Amina,1001,3.8
+Carlos,1002,3.5
+Amina Rahman,1003,3.9
+Alex,3001,3.9
+Betty,4002,4.0
+Atiq Rahman,9003,3.4

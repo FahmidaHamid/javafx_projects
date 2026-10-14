@@ -10,6 +10,34 @@ javac -version
 mvn -version
 
 ```
+
+### Install Maven:
+
+- If `mvn -version` reports command not found, check whether `Homebrew` is installed:
+
+```bash
+# Check for Homebrew
+brew --version
+```
+
+- If Homebrew is available:
+
+```bash
+# Install Maven
+brew install maven
+
+# Verify the installation
+mvn -version
+```
+- If brew also reports command not found, install Homebrew using the instructions at `brew.sh`. 
+- Follow its displayed Next steps to add Homebrew to your PATH, then run the Maven installation commands above.
+- Check which Java version Maven uses
+
+```bash
+java -version
+mvn -version
+```
+
 On your Mac, if Maven uses a different Java version, use the settings we established:
 
 ```bash
@@ -45,7 +73,7 @@ If code is unavailable, use **VS Code → File → Open Folder**, and select **l
 
 Create this file directly inside `label-demo`:
 
-```bash
+```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0

@@ -10,9 +10,11 @@ public class LabelApp extends Application {
 
     @Override
     public void start(Stage stage) {
-        Label message = new Label("Welcome to JavaFX!");
+
+        Label message = new Label("Welcome to CSC 220");
 
         StackPane layout = new StackPane(message);
+        
         Scene scene = new Scene(layout, 400, 250);
 
         stage.setTitle("Label Demo");

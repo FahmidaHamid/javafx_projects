@@ -35,7 +35,7 @@
                 <version>0.0.8</version>
                 <configuration>
                     <!-- <mainClass>demo.HelloJavaFX</mainClass> -->
-                    <mainClass>demo.HelloJavaFX0</mainClass>
+                    <mainClass>demo.HelloJavaFX2</mainClass>
                 </configuration>
             </plugin>
         </plugins>
